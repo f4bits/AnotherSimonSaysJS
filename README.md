@@ -1,1 +1,1 @@
-"# AnotherSimonSaysJS" 
+Another Simon Javascript game
