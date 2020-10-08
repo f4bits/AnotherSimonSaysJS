@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Simon dice JS</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Narrow:400,600"
+      rel="stylesheet"
+    />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="cabecera">
+      <div class="contadores">
+        <div class="contador-item">
+          <h4 class="cabecera-titulo">Puntos</h4>
+          <div class="cabecera-num">
+            <span id="puntos">0</span>
+          </div>
+        </div>
+      </div>
+      <div class="nivel">
+        <h4 class="cabecera-titulo">Nivel</h4>
+        <div class="cabecera-num"><span id="ronda">1</span></div>
+      </div>
+    </header>
+    <main>
+      <div id="areaTexto" class="texto"></div>
+
+      <div id="tablero" class="tablero"></div>
+
+      <div id="cargarJuego" class="cargar-juego">
+        <button class="reiniciar">Iniciar</button>
+      </div>
+
+      <div id="gameOver" class="game-over">
+        <div class="modal">
+          <h2>¡Oh no!</h2>
+          <p>Movimiento incorrecto 😭</p>
+          <button class="reiniciar">Reiniciar</button>
+        </div>
+      </div>
+    </main>
+    <script src="js/globales.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="js/tarjetas.js"></script>
+    <script src="js/secuencia.js"></script>
+    <script src="js/carga.js"></script>
+  </body>
+</html>
